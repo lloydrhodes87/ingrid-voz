@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+
+/* FULL NAV HEADER */
+
+.top-bar {
+    background-color: #ED6375;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+}
+
+img.logo {
+    height: 70px;
+    width: auto;
+    float: left;
+    margin-left: 30px;
+    padding-left: 40px;
+    margin-top: 5px;
+   
+}
+
+
+
+/* NAV STYLE */
+
+.nav {
+    width: 70%;
+    position: relative;
+    left: 20%;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+ul li {
+    float: left;
+    width: 100px;
+    height: 40px;
+    color: white;
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 70%;
+    margin-top: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+ul li a:hover {
+    color: gray;
+}
+
+ul li ul li {
+    display: none;
+    margin: 0;
+    
+    
+}
+
+ul li .top {
+    position: relative;
+    top: 40px;
+    border-bottom: 1px solid black;
+    color: black;
+}
+
+ul li:hover ul li {
+    display: block;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* JUST TO PUSH BACKGROUND IMAGE DOWN */
+
+.spacer {
+    height: 80px;
+}
+
+/* HEADER */
+
+header {
+    background-image: url("Images/background.jpg");
+    background-size: cover;
+    height: 100vh;
+    padding-top: 200px;
+    
+}
+
+
+
+.about {
+    height: 100vh;
+}
+
+
